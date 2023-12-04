@@ -1,5 +1,13 @@
 # Misalignment Data Augmentation
-Will be available after publication
+The data augmentation is proposed in [Nature Scientific Reports 2023](https://www.nature.com/articles/s41598-023-46747-z).
+
+If you use this augmentation please cite the following work:
+```
+Kovacs, Balint, et al.
+"Addressing image misalignments in multi-parametric prostate MRI
+for enhanced computer-aided diagnosis of prostate cancer."
+Scientific Reports 13.1 (2023): 19805.
+```
 
 ## Installation
 The repository is forked from nnU-Net v2, but contains no pretrained network so it can be used as an integrative
