@@ -17,17 +17,17 @@ to them thereby increasing their performance. The extension is simple, we just a
    - `im_channels_2_misalign`: on which image channels should the transformation be applied
    - `label_channels_2_misalign`: on which segmentation channels should the transformation be applied
    - `do_squeeze`: whether misalignment resulted from squeezing is necessary
-   - `sq_x`, `sq_y`, `sq_z`: probability of the transformation per organs
-   - `p_sq_per_sample`: probability of the transformation per sample
-   - `p_sq_per_dir`: probability of the transformation per direction
+   - `sq_x`, `sq_y`, `sq_z`: squeeze per directions, randomly sampled from interval.
+   - `p_sq_per_sample`: probability of squeezing per sample
+   - `p_sq_per_dir`: probability of squeezing per direction
    - `do_rotation`: whether misalignment resulted from rotation is necessary
    - `angle_x`, `angle_y`, `angle_z`: rotation angels per axes, randomly sampled from interval.
-   - `p_rot_per_sample`: probability of the transformation per sample
-   - `p_rot_per_axis`: probability of the transformation per axes
-   - `do_transl`: whether misalignment resulted from rotation is necessary
+   - `p_rot_per_sample`: probability of rotation per sample
+   - `p_rot_per_axis`: probability of rotation per axes
+   - `do_transl`: whether misalignment resulted from translation is necessary
    - `tr_x`, `tr_y`, `tr_z`: shift/translation per directions, randomly sampled from interval.
-   - `p_transl_per_sample`: probability of the transformation per sample
-   - `p_transl_per_dir`: probability of the transformation per direction
+   - `p_transl_per_sample`: probability of translation per sample
+   - `p_transl_per_dir`: probability of translation per direction
 
 **Important suggestions for its successful utilization:**
 
