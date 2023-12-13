@@ -100,7 +100,7 @@ class nnUNetTrainer_Misalign(nnUNetTrainer):
                                                do_squeeze=True,
                                                sq_x=[1.0, 1.0], sq_y=[0.9, 1.1], sq_z=[1.0, 1.0],
                                                p_sq_per_sample=0.1,
-                                               do_rotation=False,
+                                               do_rotation=True,
                                                angle_x=(- 0 / 360. * 2 * np.pi,  0 / 360. * 2 * np.pi),
                                                angle_y=(- 0 / 360. * 2 * np.pi,  0 / 360. * 2 * np.pi),
                                                angle_z=(-15 / 360. * 2 * np.pi, 15 / 360. * 2 * np.pi),
