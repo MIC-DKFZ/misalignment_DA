@@ -51,8 +51,8 @@ as an example: `conda create --name nnUNet_AnatInf python=3.9`
 [PyTorch Website](https://pytorch.org/get-started/locally/).
 3) Clone this repository and install its dependencies:
 ```
-https://github.com/MIC-DKFZ/anatomy_informed_DA.git
-cd anatomy-informed-da
+https://github.com/MIC-DKFZ/misalignment_DA.git
+cd misalignment-DA
 pip install -e .
 ```
 You can find more information in the
